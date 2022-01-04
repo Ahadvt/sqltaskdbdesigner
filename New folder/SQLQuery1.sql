@@ -1,5 +1,18 @@
 create database BooksShop2
 use BooksShop2
+
+
+Create table Settings(
+Id int primary key identity,
+logo nvarchar(50),
+language nvarchar(50),
+socialMedia nvarchar(100),
+Link nvarchar(100),
+PhoneNumber int,
+Info nvarchar(300)
+
+
+)
 Create table books(
  Id int Primary key identity,
  [Name] nvarchar(30),
