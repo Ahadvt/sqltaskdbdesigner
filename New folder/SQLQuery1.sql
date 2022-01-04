@@ -30,7 +30,7 @@ Create table books(
   UserName nvarchar(30),
   Text nvarchar(200),
   Date datetime2,
-  UserId int foreign key references Userr(Id)
+ 
 
  )
   Create table Userr(
